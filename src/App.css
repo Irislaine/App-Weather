@@ -1,0 +1,58 @@
+/*-------Reset------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: beige;
+}
+
+img {
+  display:inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button {
+  background-image: url(https://img.lovepik.com/element/45009/0501.png_860.png);
+  background-color: rgb(188, 137, 137);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: transform .5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: transform .4s;
+}
+/*-----App-----*/
+
+.app {
+  background-image: url('https://e0.pxfuel.com/wallpapers/751/14/desktop-wallpaper-reflections-in-time-monument-valley-utah-arizona-landscape-sky-rocks-usa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
